@@ -1,0 +1,4 @@
+UPDATE t_doctor
+SET   fees =  CASE  
+WHEN specialization = 'ENT' AND doctor_name LIKE ‘J%’ THEN 350 
+WHEN specialization = 'DERMA' AND doctor_name LIKE ‘J%’ THEN 600
