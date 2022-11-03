@@ -1,0 +1,17 @@
+using System;
+namespace cchandson
+{
+    class Concatination
+    {
+        static void Main(string[] args)
+        {
+            string name1, name2, name3;
+            Console.WriteLine("First Name : ");
+            name1 = Console.ReadLine();
+            Console.WriteLine("Second Name : ");
+            name2 = Console.ReadLine();
+            name3 = name1 + " " + name2;
+            Console.WriteLine(name3);
+        }
+    }
+}

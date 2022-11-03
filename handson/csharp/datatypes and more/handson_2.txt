@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace cchandson
+{
+    internal class _2
+    {
+        public static void FindSquare(int x)
+        {
+            int s = 0;
+            s = x * x;
+            Console.WriteLine($"Square of {x} is {s}");
+        }
+        public static void FindCube(int x)
+        {
+            int c = 0;
+            c = x * x * x;
+            Console.WriteLine($"Cube of {x} is {c}");
+        }
+        public static void Main(String[] Args)
+        {
+            int x;
+            Console.WriteLine("Enter a no : ");
+            x = int.Parse(Console.ReadLine());
+            FindSquare(x);
+            FindCube(x);
+        }
+    }
+}
